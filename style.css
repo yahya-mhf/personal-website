@@ -1,0 +1,63 @@
+#theme-img {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(238, 238, 0);
+}
+
+/*  */
+
+.navigation-bar, .About, .Blogs, .Projects, footer {
+    background-color: #5c5b58;
+    color: #e7e7e7;
+    padding: 10px;
+    margin: 5px;
+}
+
+article {
+    background-color: #73726e;
+    padding: 10px;
+    margin: 5px;
+}
+
+.teck-stack, .covers{
+    background-color: #898983;
+    padding: 10px;
+}
+
+.teck-stack span, .covers span{
+    background-color: #454442;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+}
